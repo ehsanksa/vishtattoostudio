@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vish Tattoos & Jaipuri Mehandi Arts Studio - Premium Tattoo Studio &amp; Authentic Jaipuri Mehendi in Sarath City Capital Mall, Kondapur, Hyderabad. Best tattoos, piercings &amp; bridal mehandi. Shop No. 32, The Bazar.">
+    <meta name="keywords" content="tattoo studio kondapur, best mehandi artist hyderabad, jaipuri mehandi sarath city mall, tattoo artist hyderabad, bridal mehendi kondapur, piercings gachibowli, vish tattoo studio, tattoo hyderabad, mehendi hyderabad, piercing hyderabad">
+    <meta name="author" content="Vish Tattoos &amp; Jaipuri Mehandi Arts Studio">
+    <meta name="robots" content="index,follow">
+    <meta name="geo.region" content="IN-TG">
+    <meta name="geo.placename" content="Hyderabad">
+    <meta name="geo.position" content="17.457948;78.363601">
+    <meta property="og:title" content="Vish Tattoos &amp; Jaipuri Mehandi Arts Studio | Hyderabad">
+    <meta property="og:description" content="Premium tattoos, professional piercings, and authentic Jaipuri mehendi in Sarath City Capital Mall (Kondapur), Hyderabad.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:site_name" content="Vish Tattoos">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vish Tattoos &amp; Jaipuri Mehandi Arts Studio | Hyderabad">
+    <meta name="twitter:description" content="Premium tattoos, professional piercings, and authentic Jaipuri mehendi in Hyderabad.">
+    <title>Vish Tattoos &amp; Jaipuri Mehandi Arts Studio | Hyderabad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@700&amp;display=swap');
+        
+        :root {
+            --accent: #d97706;
+        }
+        
+        * {
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 150ms;
+        }
+        
+        .hero-bg {
+            background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85)), url('https://picsum.photos/id/1015/2000/1200') center/cover no-repeat;
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #d97706;
+        }
+        
+        .nav-link:hover:after {
+            width: 100%;
+        }
+        
+        .gallery-img {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .gallery-img:hover {
+            transform: scale(1.05);
+            filter: brightness(1.1);
+        }
+        
+        .modal {
+            animation: modalPop 0.3s ease;
+        }
+        
+        @keyframes modalPop {
+            0% { transform: scale(0.95); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        
+        .sticky-cta {
+            animation: pulse 2s infinite;
+        }
+    </style>
+
+    <!-- Local SEO (Hyderabad) structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Vish Tattoos & Jaipuri Mehandi Arts Studio",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Shop No. 32, The Bazar, Sarath City Capital Mall, 4F-B, Kondapur",
+        "addressLocality": "Hyderabad",
+        "addressRegion": "Telangana",
+        "postalCode": "500084",
+        "addressCountry": "IN"
+      },
+      "telephone": "+918106992391",
+      "areaServed": ["Hyderabad"],
+      "sameAs": [
+        "https://www.instagram.com/vish_tattoo_studio/",
+        "https://wa.me/918106992391"
+      ]
+    }
+    </script>
+</head>
+<body class="bg-zinc-950 text-white font-sans">
+    <!-- NAVBAR -->
+    <nav class="bg-zinc-900 border-b border-zinc-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center gap-x-3">
+                <div class="w-10 h-10 bg-amber-500 rounded-2xl flex items-center justify-center text-zinc-950 font-bold text-2xl">V</div>
+                <div>
+                    <h1 class="text-2xl font-bold tracking-tighter" style="font-family: 'Playfair Display', sans-serif;">VISH TATTOOS</h1>
+                    <p class="text-[10px] text-amber-400 -mt-1 tracking-[2px]">JAIPURI MEHANDI ARTS</p>
+                </div>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-x-8 text-sm font-medium">
+                <a href="#home" class="nav-link">HOME</a>
+                <a href="#services" class="nav-link">SERVICES</a>
+                <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+                <a href="#artists" class="nav-link">ARTISTS</a> 
+                <a href="#location" class="nav-link">FIND US</a>
+            </div>
+
+            <div class="flex items-center gap-x-4">
+                <!-- WhatsApp -->
+                <a href="https://wa.me/918106992391?text=Hi%20Vish%20Tattoos!%20I%20want%20to%20book%20an%20appointment" 
+                   target="_blank"
+                   class="flex items-center gap-x-2 bg-green-600 hover:bg-green-500 text-white px-5 h-10 rounded-3xl text-sm font-semibold">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>WHATSAPP</span>
+                </a>
+
+                <!-- Book Now Button -->
+                <button onclick="showBookingModal()" 
+                        class="sticky-cta flex items-center gap-x-2 bg-amber-500 hover:bg-amber-400 text-zinc-950 px-6 h-10 rounded-3xl font-semibold text-sm shadow-lg shadow-amber-500/30">
+                    <i class="fa-solid fa-calendar"></i>
+                    BOOK NOW
+                </button>
+
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden text-2xl">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-zinc-900 border-t border-zinc-800 px-6 py-4">
+            <div class="flex flex-col gap-y-4 text-sm font-medium">
+                <a href="#home" onclick="toggleMobileMenu()" class="py-2">HOME</a>
+                <a href="#services" onclick="toggleMobileMenu()" class="py-2">SERVICES</a>
+                <a href="#portfolio" onclick="toggleMobileMenu()" class="py-2">PORTFOLIO</a>
+                <a href="#artists" onclick="toggleMobileMenu()" class="py-2">ARTISTS</a> 
+                <a href="#location" onclick="toggleMobileMenu()" class="py-2">FIND US</a>
+                <div class="pt-4 border-t border-zinc-700 flex flex-col gap-3">
+                    <a href="https://www.instagram.com/vish_tattoo_studio/" target="_blank" class="flex items-center justify-center gap-x-2 py-3 bg-zinc-800 rounded-3xl">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>@vish_tattoo_studio</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero-bg min-h-screen flex items-center relative">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8">
+                <div class="inline-flex items-center gap-x-2 bg-white/10 backdrop-blur-md text-white text-sm font-medium px-6 py-3 rounded-3xl border border-white/20">
+                    <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                    NOW OPEN IN SARATH CITY CAPITAL MALL
+                </div>
+                
+                <h1 class="text-6xl md:text-7xl font-bold leading-none tracking-tighter" style="font-family: 'Playfair Display', sans-serif;">
+                    INK THAT TELLS<br>YOUR STORY
+                </h1>
+                <p class="text-2xl text-amber-300">Premium Tattoos • Authentic Jaipuri Mehendi • Professional Piercings</p>
+                <p class="max-w-md text-zinc-400">Shop No. 32, The Bazar, Sarath City Capital Mall, Kondapur, Hyderabad • 4.9 ★ on Google</p>
+                
+                <div class="flex flex-wrap gap-4">
+                    <button onclick="showBookingModal()" 
+                            class="flex-1 md:flex-none bg-amber-500 hover:bg-amber-400 text-zinc-950 px-10 py-5 rounded-3xl text-xl font-semibold flex items-center justify-center gap-x-3 shadow-2xl shadow-amber-500/40">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        BOOK YOUR APPOINTMENT
+                    </button>
+                    
+                    <a href="#portfolio" 
+                       class="flex-1 md:flex-none border border-white/30 hover:border-white/60 px-10 py-5 rounded-3xl text-xl font-medium flex items-center justify-center gap-x-3">
+                        <i class="fa-solid fa-images"></i>
+                        EXPLORE PORTFOLIO
+                    </a>
+                </div>
+
+                <div class="flex items-center gap-x-8 text-sm">
+                    <div class="flex items-center gap-x-2">
+                        <i class="fa-solid fa-check text-amber-400"></i>
+                        <span>Hygiene Certified</span>
+                    </div>
+                    <div class="flex items-center gap-x-2">
+                        <i class="fa-solid fa-check text-amber-400"></i>
+                        <span>Sterile Single-Use Equipment</span>
+                    </div>
+                    <div class="flex items-center gap-x-2">
+                        <i class="fa-solid fa-check text-amber-400"></i>
+                        <span>10+ Years Experience</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Floating badge -->
+            <div class="hidden md:block absolute bottom-12 right-12 bg-zinc-900/80 backdrop-blur-xl border border-amber-400 rounded-3xl p-6 max-w-[220px] text-center shadow-2xl">
+                <p class="text-amber-400 text-sm font-medium mb-1">LIVE IN MALL</p>
+                <p class="text-4xl font-bold leading-none mb-3">Walk-ins Welcome</p>
+                <p class="text-zinc-400 text-sm">4th Floor • The Bazar • Shop 32</p>
+                <a href="https://wa.me/918106992391" target="_blank" class="mt-6 block text-center bg-green-600 text-white text-sm font-semibold py-3 px-8 rounded-3xl">MESSAGE US ON WHATSAPP →</a>
+            </div>
+        </div>
+        
+        <!-- Scroll indicator -->
+        <div class="absolute bottom-10 left-1/2 flex flex-col items-center text-xs tracking-widest text-zinc-400">
+            SCROLL FOR ART
+            <i class="fa-solid fa-chevron-down animate-bounce mt-2"></i>
+        </div>
+        
+        <!-- Instagram badge -->
+        <a href="https://www.instagram.com/vish_tattoo_studio/" target="_blank"
+           class="absolute top-12 right-12 hidden lg:flex items-center gap-x-3 bg-black/70 hover:bg-black px-5 h-12 rounded-3xl border border-white/10">
+            <i class="fa-brands fa-instagram text-2xl text-pink-500"></i>
+            <div>
+                <p class="text-xs font-medium">@vish_tattoo_studio</p>
+                <p class="text-amber-400 text-sm">Live daily work • 200+ posts</p>
+            </div>
+        </a>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="max-w-7xl mx-auto px-6 py-24">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+            <div>
+                <span class="px-4 py-1.5 text-xs font-medium bg-amber-500 text-zinc-950 rounded-3xl">SERVICES</span>
+                <h2 class="text-5xl font-bold mt-4 tracking-tighter">Tattoos • Mehendi • Piercings</h2>
+            </div>
+            <p class="max-w-md text-zinc-400 md:text-right">Transparent pricing. No hidden costs. All work done with premium inks &amp; sterile equipment.</p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Tattoos -->
+            <div class="bg-zinc-900 rounded-3xl overflow-hidden group">
+                <div class="h-2 bg-gradient-to-r from-amber-400 to-violet-500"></div>
+                <div class="p-8">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-4xl font-semibold">TATTOOS</h3>
+                        <i class="fa-solid fa-wand-magic-sparkles text-4xl text-amber-400"></i>
+                    </div>
+                    <p class="text-zinc-400 mt-2">Realistic portraits, geometric, minimalist, blackwork &amp; custom designs</p>
+                    
+                    <div class="mt-8 space-y-6">
+                        <div class="flex justify-between border-b border-zinc-700 pb-4">
+                            <div>Small / Fine Line</div>
+                            <div class="font-semibold">₹2,500+</div>
+                        </div>
+                        <div class="flex justify-between border-b border-zinc-700 pb-4">
+                            <div>Medium Size</div>
+                            <div class="font-semibold">₹5,000 – ₹12,000</div>
+                        </div>
+                        <div class="flex justify-between border-b border-zinc-700 pb-4">
+                            <div>Portrait / Large Custom</div>
+                            <div class="font-semibold">₹15,000+</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div>Full Sleeve / Back Piece</div>
+                            <div class="font-semibold">Custom Quote</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-zinc-800 px-8 py-6 text-sm font-medium flex items-center justify-center gap-x-2 group-hover:bg-amber-500 group-hover:text-zinc-950">
+                    <span>BOOK TATTOO CONSULTATION</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            
+            <!-- Jaipuri Mehendi -->
+            <div class="bg-zinc-900 rounded-3xl overflow-hidden group">
+                <div class="h-2 bg-gradient-to-r from-orange-400 to-amber-500"></div>
+                <div class="p-8">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-4xl font-semibold">JAIPURI MEHANDI</h3>
+                        <i class="fa-solid fa-hand-holding-heart text-4xl text-orange-400"></i>
+                    </div>
+                    <p class="text-zinc-400 mt-2">Traditional Rajasthani designs, bridal, Arabic &amp; modern fusion</p>
+                    
+                    <div class="mt-8 space-y-6">
+                        <div class="flex justify-between border-b border-zinc-700 pb-4">
+                            <div>Jaipuri / Arabic Hands</div>
+                            <div class="font-semibold">₹1,800+</div>
+                        </div>
+                        <div class="flex justify-between border-b border-zinc-700 pb-4">
+                            <div>Bridal Full Set</div>
+                            <div class="font-semibold">₹3,000 – ₹8,000</div>
+                        </div>
+                        <div class="flex justify-between border-b border-zinc-700 pb-4">
+                            <div>Legs / Full Body</div>
+                            <div class="font-semibold">₹6,000+</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div>Karva Chauth / Festive Special</div>
+                            <div class="font-semibold">₹2,500+</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-zinc-800 px-8 py-6 text-sm font-medium flex items-center justify-center gap-x-2 group-hover:bg-orange-400 group-hover:text-zinc-950">
+                    <span>BOOK MEHANDI APPOINTMENT</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            
+            <!-- Piercings -->
+            <div class="bg-zinc-900 rounded-3xl overflow-hidden group">
+                <div class="h-2 bg-gradient-to-r from-cyan-400 to-teal-500"></div>
+                <div class="p-8">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-4xl font-semibold">PIERCINGS</h3>
+                        <i class="fa-solid fa-ring text-4xl text-cyan-400"></i>
+                    </div>
+                    <p class="text-zinc-400 mt-2">Professional ear, nose, helix, septum &amp; body piercings</p>
+                    
+                    <div class="mt-8 space-y-6">
+                        <div class="flex justify-between border-b border-zinc-700 pb-4">
+                            <div>Lobe / Helix</div>
+                            <div class="font-semibold">₹800+</div>
+                        </div>
+                        <div class="flex justify-between border-b border-zinc-700 pb-4">
+                            <div>Nose / Septum</div>
+                            <div class="font-semibold">₹1,200+</div>
+                        </div>
+                        <div class="flex justify-between border-b border-zinc-700 pb-4">
+                            <div>Cartilage / Tragus</div>
+                            <div class="font-semibold">₹1,500+</div>
+                        </div>
+                        <div class="flex justify-between">
+                            <div>Custom / Multiple</div>
+                            <div class="font-semibold">Custom Quote</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-zinc-800 px-8 py-6 text-sm font-medium flex items-center justify-center gap-x-2 group-hover:bg-cyan-400 group-hover:text-zinc-950">
+                    <span>GET PIERCED TODAY</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="bg-black py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex justify-between items-baseline mb-10">
+                <h2 class="text-5xl font-bold tracking-tighter">OUR WORK SPEAKS</h2>
+                <div class="flex gap-x-2 border border-zinc-700 rounded-3xl p-1 text-sm">
+                    <button onclick="filterPortfolio('all')" id="filter-all" class="active-filter px-6 py-2 rounded-3xl font-medium">ALL</button>
+                    <button onclick="filterPortfolio('tattoo')" id="filter-tattoo" class="px-6 py-2 rounded-3xl font-medium">TATTOOS</button>
+                    <button onclick="filterPortfolio('mehendi')" id="filter-mehendi" class="px-6 py-2 rounded-3xl font-medium">MEHANDI</button>
+                </div>
+            </div>
+
+            <!-- Instagram Live Feed Banner -->
+            <div class="bg-gradient-to-r from-pink-500/10 to-amber-400/10 border border-white/10 rounded-3xl p-6 mb-10 flex items-center justify-between">
+                <div class="flex items-center gap-x-4">
+                    <i class="fa-brands fa-instagram text-4xl"></i>
+                    <div>
+                        <p class="font-semibold">LIVE DAILY WORK FROM @vish_tattoo_studio</p>
+                        <p class="text-sm text-zinc-400">Fresh ink &amp; fresh mehendi • Updated every day</p>
+                    </div>
+                </div>
+                <a href="https://www.instagram.com/vish_tattoo_studio/" target="_blank" 
+                   class="flex items-center gap-x-3 bg-white text-zinc-950 px-8 h-12 rounded-3xl font-semibold">
+                    FOLLOW ON INSTAGRAM
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div id="portfolioGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Populated by JS below -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ARTISTS -->
+    <section id="artists" class="max-w-7xl mx-auto px-6 py-24">
+        <h2 class="text-5xl font-bold tracking-tighter mb-12">MEET THE ARTISTS</h2>
+        
+        <div class="grid md:grid-cols-2 gap-12">
+            <!-- Vishal Rajput -->
+            <div class="flex flex-col md:flex-row gap-8 bg-zinc-900 rounded-3xl p-8">
+                <div class="md:w-1/3">
+                    <img src="https://picsum.photos/id/1011/600/800" alt="Vishal Rajput" 
+                         class="w-full aspect-square object-cover rounded-3xl">
+                </div>
+                <div class="flex-1">
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-3xl font-semibold">Vishal Rajput</h3>
+                        <span class="text-xs bg-amber-400 text-zinc-950 px-4 h-7 flex items-center rounded-3xl font-bold">FOUNDER &amp; LEAD TATTOO ARTIST</span>
+                    </div>
+                    <p class="text-amber-400 mt-1">10+ years • Trained in India &amp; International styles</p>
+                    <p class="mt-6 text-zinc-400 leading-relaxed">
+                        Vishal is a master of realistic portraits, geometric precision, and bold custom pieces. 
+                        His signature style blends modern tattoo techniques with Indian cultural motifs. 
+                        Over 5,000+ satisfied clients across Hyderabad.
+                    </p>
+                    <div class="mt-8 flex items-center gap-x-6 text-sm">
+                        <div class="flex items-center gap-x-2"><i class="fa-solid fa-star"></i> Speciality: Portraits &amp; Blackwork</div>
+                        <div class="flex items-center gap-x-2"><i class="fa-solid fa-star"></i> 500+ Instagram features</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Akash -->
+            <div class="flex flex-col md:flex-row gap-8 bg-zinc-900 rounded-3xl p-8">
+                <div class="md:w-1/3">
+                    <img src="https://picsum.photos/id/1005/600/800" alt="Akash" 
+                         class="w-full aspect-square object-cover rounded-3xl">
+                </div>
+                <div class="flex-1">
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-3xl font-semibold">Akash Sharma</h3>
+                        <span class="text-xs bg-orange-400 text-zinc-950 px-4 h-7 flex items-center rounded-3xl font-bold">MEHANDI &amp; PIERCING SPECIALIST</span>
+                    </div>
+                    <p class="text-orange-400 mt-1">8 years • Jaipuri Mehandi expert</p>
+                    <p class="mt-6 text-zinc-400 leading-relaxed">
+                        Akash brings authentic Rajasthani Jaipuri mehendi to every bride and festival celebration. 
+                        Expert in Arabic fusion, intricate bridal patterns, and safe professional piercings.
+                    </p>
+                    <div class="mt-8 flex items-center gap-x-6 text-sm">
+                        <div class="flex items-center gap-x-2"><i class="fa-solid fa-star"></i> Speciality: Bridal Mehendi &amp; Piercings</div>
+                        <div class="flex items-center gap-x-2"><i class="fa-solid fa-star"></i> 200+ bridal bookings</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AFTERCARE -->
+    <section id="aftercare" class="bg-zinc-900 py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-12 gap-12 items-center">
+                <div class="md:col-span-5">
+                    <span class="text-xs uppercase tracking-widest font-medium text-amber-400">PRO TIP FROM THE STUDIO</span>
+                    <h2 class="text-5xl font-bold tracking-tighter mt-3">Tattoo &amp; Piercing Aftercare Guide</h2>
+                    <p class="mt-6 text-zinc-400 text-lg">We care about your ink long after you leave our studio. Follow these steps for perfect healing every time.</p>
+                    
+                    <a href="#" onclick="alert('Full PDF guide would download here in live site. Contact us for printed version!')" 
+                       class="mt-10 inline-flex items-center gap-x-3 border border-white/30 hover:border-amber-400 px-8 py-4 rounded-3xl text-sm font-medium">
+                        <span>DOWNLOAD FULL AFTERCARE PDF</span>
+                        <i class="fa-solid fa-download"></i>
+                    </a>
+                </div>
+                
+                <div class="md:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div class="bg-black rounded-3xl p-8">
+                        <h4 class="text-xl font-semibold mb-4 flex items-center gap-x-3"><i class="fa-solid fa-shower text-amber-400"></i> First 48 Hours</h4>
+                        <ul class="space-y-3 text-sm">
+                            <li class="flex items-start gap-x-3"><i class="fa-solid fa-circle-check mt-1 text-green-400"></i> Keep the area clean &amp; dry</li>
+                            <li class="flex items-start gap-x-3"><i class="fa-solid fa-circle-check mt-1 text-green-400"></i> Apply thin layer of aftercare balm</li>
+                            <li class="flex items-start gap-x-3"><i class="fa-solid fa-circle-check mt-1 text-green-400"></i> No direct sun or swimming</li>
+                        </ul>
+                    </div>
+                    <div class="bg-black rounded-3xl p-8">
+                        <h4 class="text-xl font-semibold mb-4 flex items-center gap-x-3"><i class="fa-solid fa-heart-pulse text-amber-400"></i> Days 3–14</h4>
+                        <ul class="space-y-3 text-sm">
+                            <li class="flex items-start gap-x-3"><i class="fa-solid fa-circle-check mt-1 text-green-400"></i> Moisturize 3–4 times daily</li>
+                            <li class="flex items-start gap-x-3"><i class="fa-solid fa-circle-check mt-1 text-green-400"></i> Avoid tight clothing on tattoo</li>
+                            <li class="flex items-start gap-x-3"><i class="fa-solid fa-circle-check mt-1 text-green-400"></i> Do not scratch or peel</li>
+                        </ul>
+                    </div>
+                    <div class="bg-black rounded-3xl p-8">
+                        <h4 class="text-xl font-semibold mb-4 flex items-center gap-x-3"><i class="fa-solid fa-hand-holding-medical text-orange-400"></i> Mehandi Aftercare</h4>
+                        <ul class="space-y-3 text-sm">
+                            <li class="flex items-start gap-x-3"><i class="fa-solid fa-circle-check mt-1 text-green-400"></i> Keep paste on for 6–8 hours</li>
+                            <li class="flex items-start gap-x-3"><i class="fa-solid fa-circle-check mt-1 text-green-400"></i> Apply oil after removal for darker stain</li>
+                            <li class="flex items-start gap-x-3"><i class="fa-solid fa-circle-check mt-1 text-green-400"></i> Avoid water for 24 hours</li>
+                        </ul>
+                    </div>
+                    <div class="bg-black rounded-3xl p-8 flex flex-col justify-center">
+                        <p class="text-amber-400 font-medium">Questions? Our team is always available on WhatsApp for personalized healing advice.</p>
+                        <a href="https://wa.me/918106992391" target="_blank" class="mt-auto pt-8 flex items-center text-sm font-semibold">CHAT WITH US FOR FREE AFTERCARE SUPPORT →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS / REVIEWS -->
+    <section class="max-w-7xl mx-auto px-6 py-24 border-t border-b border-zinc-800">
+        <div class="flex flex-col md:flex-row gap-12">
+            <div class="md:w-1/3">
+                <h2 class="text-5xl font-bold">Real Stories,<br>Real Ink</h2>
+                <div class="mt-6 flex items-center gap-x-2 text-amber-400">
+                    <i class="fa-solid fa-star text-xl"></i>
+                    <i class="fa-solid fa-star text-xl"></i>
+                    <i class="fa-solid fa-star text-xl"></i>
+                    <i class="fa-solid fa-star text-xl"></i>
+                    <i class="fa-solid fa-star text-xl"></i>
+                    <span class="text-4xl font-semibold ml-4">4.9 / 5</span>
+                </div>
+                <p class="text-sm text-zinc-400">Based on 187+ Google reviews</p>
+                <a href="https://share.google/GrH2w1pwQvAcxbM0I" target="_blank" class="mt-8 text-sm flex items-center gap-x-2 underline">READ ALL REVIEWS ON GOOGLE →</a>
+            </div>
+            
+            <div class="flex-1 grid md:grid-cols-3 gap-6 text-sm">
+                <div class="bg-zinc-900 p-6 rounded-3xl">
+                    “Best tattoo experience ever! Vishal did my portrait and it healed perfectly. 10/10 recommend.”<br>
+                    <span class="block mt-6 text-amber-400 text-xs">— Priya Sharma, Kondapur</span>
+                </div>
+                <div class="bg-zinc-900 p-6 rounded-3xl">
+                    “Bridal mehendi was stunning and lasted 3 weeks! The whole team is so professional.”<br>
+                    <span class="block mt-6 text-orange-400 text-xs">— Ananya Reddy, Gachibowli</span>
+                </div>
+                <div class="bg-zinc-900 p-6 rounded-3xl">
+                    “Got my septum pierced here. Super clean studio and zero pain. Thank you Akash!”<br>
+                    <span class="block mt-6 text-cyan-400 text-xs">— Rahul Mehra, Whitefields</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section id="location" class="max-w-7xl mx-auto px-6 py-24 bg-zinc-950">
+        <div class="grid md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="text-5xl font-bold tracking-tighter mb-8">FIND US IN THE MALL</h2>
+                <div class="space-y-6">
+                    <div class="flex gap-x-6">
+                        <i class="fa-solid fa-location-dot text-4xl text-amber-400 mt-1"></i>
+                        <div>
+                            <p class="font-semibold">Shop No. 32, The Bazar</p>
+                            <p class="text-zinc-400">Sarath City Capital Mall, 4F-B</p>
+                            <p class="text-zinc-400">Kondapur, Whitefields, Gachibowli</p>
+                            <p class="text-zinc-400">Hyderabad, Telangana 500084</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex gap-x-6">
+                        <i class="fa-solid fa-phone text-4xl text-amber-400 mt-1"></i>
+                        <div>
+                            <p class="font-semibold">+91 81069 92391</p>
+                            <p class="text-xs text-zinc-400">Call or WhatsApp for instant response</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex gap-x-6">
+                        <i class="fa-solid fa-clock text-4xl text-amber-400 mt-1"></i>
+                        <div>
+                            <p class="font-semibold">Open Daily</p>
+                            <p class="text-zinc-400">11:00 AM – 9:00 PM</p>
+                            <p class="text-xs text-emerald-400">Walk-ins welcome • Appointments preferred</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-12 flex flex-wrap gap-4">
+                    <a href="https://wa.me/918106992391" target="_blank" class="flex-1 text-center bg-green-600 text-white py-4 rounded-3xl font-semibold">GET DIRECTIONS ON WHATSAPP</a>
+                    <a href="https://maps.google.com/maps?q=shop%20No%2032%2C%20the%20bazar%2C%20Sarath%20City%20Capital%20Mall%2C%20Kondapur%2C%20Hyderabad" target="_blank" class="flex-1 text-center border border-white/30 hover:border-white py-4 rounded-3xl font-semibold">OPEN IN GOOGLE MAPS</a>
+                </div>
+            </div>
+            
+            <!-- Map -->
+            <div class="rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.0368975517717!2d78.36360069999999!3d17.457947999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93c845555555%3A0x6aaf1b358f2506eb!2svish%20tattoo%20%26%20jaipuri%20mehandi%20art%20studio!5e0!3m2!1sen!2ssa!4v1774439598639!5m2!1sen!2ssa"
+                    class="w-full h-72 sm:h-[420px]" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <div class="bg-gradient-to-r from-amber-400 to-orange-400 text-zinc-950 py-16">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-5xl font-bold">Ready to get inked or henna’d?</h2>
+            <p class="mt-4 text-xl">Same-day consultations available at Sarath City Mall</p>
+            <button onclick="showBookingModal()" 
+                    class="mt-10 mx-auto flex items-center gap-x-4 bg-zinc-950 text-white px-12 py-7 rounded-3xl text-2xl font-semibold shadow-2xl">
+                SECURE YOUR SLOT NOW
+                <i class="fa-solid fa-arrow-right text-amber-400"></i>
+            </button>
+            <p class="text-xs mt-8 opacity-75">Limited walk-in slots • Premium artists only</p>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-black py-16 border-t border-zinc-800">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-y-12">
+            <div>
+                <div class="flex items-center gap-x-3">
+                    <div class="w-8 h-8 bg-amber-500 rounded-2xl flex items-center justify-center text-zinc-950 text-3xl">V</div>
+                    <h1 class="text-3xl font-bold tracking-tighter">VISH TATTOOS</h1>
+                </div>
+                <p class="text-zinc-400 text-sm mt-3">Jaipuri Mehandi Arts Studio</p>
+                <p class="text-xs text-zinc-500 mt-8 p-2">© 2026 Vish Tattoos &amp; Jaipuri Mehandi Arts Studio. All Rights Reserved. Designed by  <a href="https://alehsanmt.com" target="_blank" class="text-amber-400">Al-Ehsan Media & Tech.</a></p>
+            </div>
+            
+            <div class="text-sm">
+                <h4 class="font-semibold mb-4">QUICK LINKS</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-3">
+                    <a href="#portfolio" class="hover:text-amber-400">Portfolio</a>
+                    <a href="#artists" class="hover:text-amber-400">Our Artists</a>
+                    <a href="#services" class="hover:text-amber-400">Services &amp; Pricing</a>
+                    <a href="#aftercare" class="hover:text-amber-400">Aftercare Guide</a>
+                    <a href="https://www.instagram.com/vish_tattoo_studio/" target="_blank" class="hover:text-amber-400">Instagram</a>
+                    <a href="https://share.google/GrH2w1pwQvAcxbM0I" target="_blank" class="hover:text-amber-400">Google Reviews</a>
+                </div>
+            </div>
+            
+            <div>
+                <h4 class="font-semibold mb-4">CONTACT US</h4>
+                <p class="text-sm">Shop No. 32, The Bazar, Sarath City Capital Mall<br>4F-B, Kondapur, Hyderabad 500084</p>
+                <a href="tel:+918106992391" class="block mt-6 text-amber-400 font-medium">+91 81069 92391</a>
+                <div class="flex gap-x-6 mt-8">
+                    <a href="https://www.instagram.com/vish_tattoo_studio/" target="_blank"><i class="fa-brands fa-instagram text-2xl"></i></a>
+                    <a href="https://wa.me/918106992391" target="_blank"><i class="fa-brands fa-whatsapp text-2xl"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOOKING MODAL -->
+    <div id="bookingModal" onclick="if(event.target===this)hideBookingModal()" 
+         class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-[9999] flex items-center justify-center">
+        <div onclick="event.stopImmediatePropagation()" 
+             class="modal bg-zinc-900 rounded-3xl max-w-lg w-full mx-4 overflow-hidden max-h-[85vh] flex flex-col">
+            <div class="px-8 pt-8 pb-4 overflow-y-auto flex-1">
+                <h3 class="text-3xl font-semibold">Book Your Appointment</h3>
+                <p class="text-zinc-400">Tell us what you’re looking for and we’ll get back within minutes</p>
+                
+                <form id="bookingForm" onsubmit="handleBooking(event)" class="mt-8 space-y-6">
+                    <div>
+                        <label class="text-xs font-medium block mb-1">YOUR NAME</label>
+                        <input type="text" id="name" required 
+                               class="w-full bg-zinc-800 border border-transparent focus:border-amber-400 rounded-2xl px-5 py-4 outline-none">
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="text-xs font-medium block mb-1">PHONE</label>
+                            <input type="tel" id="phone" value="+91" required 
+                                   class="w-full bg-zinc-800 border border-transparent focus:border-amber-400 rounded-2xl px-5 py-4 outline-none">
+                        </div>
+                        <div>
+                            <label class="text-xs font-medium block mb-1">SERVICE</label>
+                            <select id="service" class="w-full bg-zinc-800 border border-transparent focus:border-amber-400 rounded-2xl px-5 py-4 outline-none">
+                                <option>Tattoo Consultation</option>
+                                <option>Jaipuri Mehendi</option>
+                                <option>Bridal Mehendi</option>
+                                <option>Piercing</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label class="text-xs font-medium block mb-1">PREFERRED DATE / TIME</label>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <input type="date" id="date" 
+                                       class="w-full bg-zinc-800 border border-transparent focus:border-amber-400 rounded-2xl px-5 py-4 outline-none">
+                            </div>
+                            <div>
+                                <input type="time" id="time" 
+                                       class="w-full bg-zinc-800 border border-transparent focus:border-amber-400 rounded-2xl px-5 py-4 outline-none">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label class="text-xs font-medium block mb-1">TELL US ABOUT YOUR DESIGN / IDEA</label>
+                        <textarea id="message" rows="3" placeholder="Describe your dream tattoo or mehendi pattern..."
+                                  class="w-full bg-zinc-800 border border-transparent focus:border-amber-400 rounded-3xl px-5 py-4 outline-none resize-none"></textarea>
+                    </div>
+                    
+                    <button type="submit" 
+                            class="w-full bg-amber-500 hover:bg-amber-400 text-zinc-950 py-6 rounded-3xl text-lg font-semibold flex items-center justify-center gap-x-3">
+                        SEND REQUEST 
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+            
+            <div class="px-8 py-6 border-t text-xs flex items-center justify-between text-zinc-400">
+                <p>We reply instantly on WhatsApp</p>
+                <button onclick="hideBookingModal()" class="font-medium text-zinc-400 hover:text-white">CLOSE</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- IMAGE MODAL -->
+    <div id="imageModal" onclick="if(event.target===this)hideImageModal()" class="hidden fixed inset-0 bg-black/90 z-[10000] flex items-center justify-center">
+        <div class="relative max-w-4xl w-full mx-4">
+            <button onclick="hideImageModal()" class="absolute -top-4 -right-4 bg-white text-zinc-950 w-10 h-10 rounded-2xl flex items-center justify-center text-2xl">×</button>
+            <img id="modalImage" src="" alt="" class="w-full rounded-3xl">
+        </div>
+    </div>
+
+    <script>
+        // Tailwind script initialization
+        function initializeTailwind() {
+            return {
+                config(userConfig = {}) {
+                    return {
+                        content: [],
+                        theme: {
+                            extend: {},
+                        },
+                        plugins: [],
+                        ...userConfig,
+                    }
+                },
+                theme: {
+                    extend: {},
+                },
+            }
+        }
+        
+        // Portfolio data (high-res placeholders — replace with your actual images)
+        const portfolioItems = [
+            { type: "tattoo", url: "https://instagram.fruh4-6.fna.fbcdn.net/v/t51.82787-15/626972988_18100709167698989_184053177822049910_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzQyMzQ2MTA1NDMxMjAxMjY5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=HAXggEc9rukQ7kNvwESAEIZ&_nc_oc=AdqQ18seZkdgjgfPLlJIkD8fpydRiqgpz-oO27bDl_TT4OCB-_ENKJfKFl-_QeZgJoSfvgzBMNrDWrxQrPTov4bz&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fruh4-6.fna&_nc_gid=3QDteLpNMxrcO21IoP1Jrw&_nc_ss=7a32e&oh=00_AfzY5uZE9KoFasaPhBR1HNwwZcVtJ5yVbEu1DSUpsidJ0w&oe=69C9BC99", caption: "Dad holding his Son" },
+            { type: "tattoo", url: "https://picsum.photos/id/1005/800/800", caption: "Geometric mandala sleeve" },
+            { type: "tattoo", url: "https://picsum.photos/id/133/800/800", caption: "Minimalist script" },
+            { type: "tattoo", url: "https://picsum.photos/id/201/800/800", caption: "Healed blackwork rose" },
+            { type: "mehendi", url: "https://picsum.photos/id/1009/800/800", caption: "Jaipuri bridal full hands" },
+            { type: "mehendi", url: "https://picsum.photos/id/106/800/800", caption: "Arabic fusion back design" },
+            { type: "mehendi", url: "https://picsum.photos/id/160/800/800", caption: "Traditional Rajasthani legs" },
+            { type: "mehendi", url: "https://picsum.photos/id/180/800/800", caption: "Karva Chauth special" },
+            { type: "tattoo", url: "https://instagram.fruh4-4.fna.fbcdn.net/v/t51.82787-15/623712379_18062944793303191_1036813796348122928_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzQxMTc5OTU1MTMyNjQ5NjQ5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzIifQ%3D%3D&_nc_ohc=CIgUKdecbb0Q7kNvwH7xtA8&_nc_oc=Adq1Wj0FX18qFDQ8giw9hTCh17KSCd2bs2yvyh3rU-SYcm_08eD3vRDAhN1DKlAXhmkAt7mD7j7AcQYX1yF5m4IG&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fruh4-4.fna&_nc_gid=wXZ6mEBoCmB6XT9a8kvq8w&_nc_ss=7a32e&oh=00_AfxxJa-XcrNSX1PEL7ShwVMDemgl7aqWrXYunnsu7GlxNQ&oe=69C9BFCF", caption: "Line Art Butterfly" },
+            { type: "mehendi", url: "https://picsum.photos/id/29/800/800", caption: "Modern minimalist mehendi" },
+        ]
+        
+        function renderPortfolio(filter = 'all') {
+            const grid = document.getElementById('portfolioGrid')
+            grid.innerHTML = ''
+            
+            const filtered = filter === 'all' 
+                ? portfolioItems 
+                : portfolioItems.filter(item => item.type === filter)
+            
+            filtered.forEach(item => {
+                const div = document.createElement('div')
+                div.className = 'relative group cursor-pointer overflow-hidden rounded-3xl'
+                div.innerHTML = `
+                    <img src="${item.url}" alt="${item.caption}" class="gallery-img w-full aspect-square object-cover">
+                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                        <p class="text-xs uppercase">${item.type.toUpperCase()}</p>
+                        <p class="text-sm font-medium">${item.caption}</p>
+                    </div>
+                `
+                div.onclick = () => showImage(item.url)
+                grid.appendChild(div)
+            })
+            
+            // If no items (demo only)
+            if (filtered.length === 0) {
+                grid.innerHTML = `<p class="col-span-full text-center py-12 text-zinc-400">No images in this category yet. Add your own photos!</p>`
+            }
+        }
+        
+        function filterPortfolio(type) {
+            // Remove active from all
+            document.querySelectorAll('#portfolioGrid ~ div button').forEach(btn => btn.classList.remove('active-filter', 'bg-amber-400', 'text-zinc-950'))
+            // Add active to clicked
+            if (type === 'all') document.getElementById('filter-all').classList.add('active-filter', 'bg-amber-400', 'text-zinc-950')
+            else if (type === 'tattoo') document.getElementById('filter-tattoo').classList.add('active-filter', 'bg-amber-400', 'text-zinc-950')
+            else document.getElementById('filter-mehendi').classList.add('active-filter', 'bg-amber-400', 'text-zinc-950')
+            
+            renderPortfolio(type)
+        }
+        
+        function showImage(url) {
+            document.getElementById('modalImage').src = url
+            document.getElementById('imageModal').classList.remove('hidden')
+            document.getElementById('imageModal').classList.add('flex')
+        }
+        
+        function hideImageModal() {
+            const modal = document.getElementById('imageModal')
+            modal.classList.add('hidden')
+            modal.classList.remove('flex')
+        }
+        
+        // Booking modal
+        function showBookingModal() {
+            document.getElementById('bookingModal').classList.remove('hidden')
+            document.getElementById('bookingModal').classList.add('flex')
+        }
+        
+        function hideBookingModal() {
+            const modal = document.getElementById('bookingModal')
+            modal.classList.add('hidden')
+            modal.classList.remove('flex')
+        }
+        
+        function handleBooking(e) {
+            e.preventDefault()
+            const name = document.getElementById('name').value
+            const ownerPhone = '918106992391'
+            const phone = document.getElementById('phone').value
+            const service = document.getElementById('service').value
+            const date = document.getElementById('date').value
+            const time = document.getElementById('time')?.value || ''
+            const message = document.getElementById('message').value
+
+            const preferred = [date, time].filter(Boolean).join(' ')
+            const waText = `Hi Vish Tattoos!\n\nI want to book an appointment.\n\nName: ${name}\nPhone: ${phone}\nService: ${service}\nPreferred: ${preferred || '-'}\nDesign/Idea: ${message || '-'}\n\nPlease contact me with available slots.`
+            const waUrl = `https://wa.me/${ownerPhone}?text=${encodeURIComponent(waText)}`
+
+            window.open(waUrl, '_blank', 'noopener,noreferrer')
+            hideBookingModal()
+            document.getElementById('bookingForm').reset()
+        }
+        
+        // Mobile menu
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu')
+            menu.classList.toggle('hidden')
+        }
+        
+        // Initialize everything
+        window.onload = function() {
+            initializeTailwind()
+            renderPortfolio('all')
+            
+            console.log('%c✅ Vish Tattoos & Jaipuri Mehandi Arts Studio website ready!', 'color:#d97706; font-size:13px; font-weight:600')
+            console.log('Copy this single HTML file and host for free on Netlify / Vercel.')
+            console.log('Replace picsum images with your real high-resolution portfolio shots.')
+            console.log('For true Instagram live feed, add LightWidget or EmbedSocial script.')
+        }
+    </script>
+</body>
+</html>
